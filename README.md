@@ -2,6 +2,12 @@
   <img src="/assets/CyberSpider-UG-Outline.png" width="100"/>
 </div>
 
+<div id="link" align="center">
+  <a href="https://th4ntis,github.io">
+    <img src="https://img.shields.io/badge/Website-black?style=for-the-badge&logo=Github&logoColor=white" alt="LinkedIn Badge"/>
+  </a>
+</div>
+
 <div id="badges1" align="center">
   <a href="https://www.linkedin.com/in/damian-roneker/">
     <img src="https://img.shields.io/badge/LinkedIn-blue?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn Badge"/>
