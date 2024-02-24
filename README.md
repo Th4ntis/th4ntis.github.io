@@ -49,9 +49,8 @@
 ### 🕷️: About Me :
 I'm Th4ntis(Damian), a cyber security and information security enthusiast. I enjoy the world of Cyber Security and Information Security as a career and a hobby. Be sure to check out my Gitbook from the link at the top for all my notes, walkthroughs, how to's and more. I treat that as my blog.
 
-<!---
+
 ---
 
 ### :fire: My Stats :
 [![GitHub Streak](http://github-readme-streak-stats.herokuapp.com?user=th4ntis&theme=dark&background=000000)](https://git.io/streak-stats)
---->
