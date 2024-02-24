@@ -3,7 +3,7 @@
 </div>
 
 <div id="link" align="center">
-  <a href="https://th4ntis.github.io">
+  <a href="https://th4ntis.com">
     <img src="https://img.shields.io/badge/Website-black?style=for-the-badge&logo=Github&logoColor=white" alt="LinkedIn Badge"/>
   </a>
 </div>
