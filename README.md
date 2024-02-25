@@ -22,13 +22,13 @@
 
 <div id="badges2" align="center">
   <a href="https://infosec.exchange/web/@th4ntis">
-    <img src="https://img.shields.io/badge/Mastodon-purple?style=for-the-badge&logo=Mastodon&logoColor=white" alt="Twitter Badge"/>
+    <img src="https://img.shields.io/badge/Mastodon-purple?style=for-the-badge&logo=Mastodon&logoColor=white"/>
   </a>
   <a href="https://tryhackme.com/p/th4ntis">
-    <img src="https://img.shields.io/badge/TryHackMe-Red?style=for-the-badge&logo=TryHackMe&logoColor=white" alt="Twitter Badge"/>
+    <img src="https://img.shields.io/badge/TryHackMe-Red?style=for-the-badge&logo=TryHackMe&logoColor=white"/>
   </a>
   <a href="https://app.hackthebox.com/profile/274909">
-    <img src="https://img.shields.io/badge/HackTheBox-green?style=for-the-badge&logo=HackTheBox&logoColor=white" alt="Twitter Badge"/>
+    <img src="https://img.shields.io/badge/HackTheBox-green?style=for-the-badge&logo=HackTheBox&logoColor=white"/>
   </a>
 </div>
 
@@ -36,19 +36,19 @@
 <img src="https://komarev.com/ghpvc/?username=th4ntis&style=flat-square&color=blue" alt=""/>
 </div>
 
+---
+
 <h1>
-  Welcome
+  >whoami_
 </h1>
 
 <div align="center">
   <img src="/assets/TWITTER BANNER.jpg" width="800" height="250"/>
 </div>
 
----
 
 ### 🕷️: About Me :
-I'm Th4ntis(Damian), a cyber security and information security enthusiast. I enjoy the world of Cyber Security and Information Security as a career and a hobby. Be sure to check out my Gitbook from the link at the top for all my notes, walkthroughs, how to's and more. I treat that as my blog.
-
+I'm Th4ntis(Damian), a cyber security and information security enthusiast. I enjoy the world of Cyber Security and Information Security as a career and a hobby. Be sure to check out my Gitbook from the link at the top for all my notes, walkthroughs, how to's and more.
 
 ---
 
