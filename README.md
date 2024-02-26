@@ -9,7 +9,7 @@
 </div>
 
 <div id="badges1" align="center">
-  <a href="https://www.linkedin.com/in/damian-roneker/">
+  <a href="https://www.linkedin.com/in/th4ntis/">
     <img src="https://img.shields.io/badge/LinkedIn-blue?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn Badge"/>
   </a>
   <a href="https://cybersec.th4ntis.com/">
@@ -48,7 +48,7 @@
 
 
 ### 🕷️: About Me :
-I'm Th4ntis(Damian), a cyber security and information security enthusiast. I enjoy the world of Cyber Security and Information Security as a career and a hobby. Be sure to check out my Gitbook for all my notes, walkthroughs, how to's and more. That is currently my "blog" until I update my real blog.
+I'm Th4ntis, a cyber security and information security enthusiast. I enjoy the world of Cyber Security and Information Security as a career and a hobby. Be sure to check out my Gitbook for all my notes, walkthroughs, how to's and more. That is currently my "blog" until I update my real blog.
 
 ---
 
