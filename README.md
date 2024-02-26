@@ -48,7 +48,7 @@
 
 
 ### 🕷️: About Me :
-I'm Th4ntis(Damian), a cyber security and information security enthusiast. I enjoy the world of Cyber Security and Information Security as a career and a hobby. Be sure to check out my Gitbook from the link at the top for all my notes, walkthroughs, how to's and more.
+I'm Th4ntis(Damian), a cyber security and information security enthusiast. I enjoy the world of Cyber Security and Information Security as a career and a hobby. Be sure to check out my Gitbook for all my notes, walkthroughs, how to's and more. That is currently my "blog" until I update my real blog.
 
 ---
 
