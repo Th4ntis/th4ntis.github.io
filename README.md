@@ -9,11 +9,11 @@
 </div>
 
 <div id="badges1" align="center">
-  <a href="https://www.linkedin.com/in/th4ntis/">
-    <img src="https://img.shields.io/badge/LinkedIn-blue?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn Badge"/>
-  </a>
   <a href="https://cybersec.th4ntis.com/">
     <img src="https://img.shields.io/badge/Gitbook-blue?style=for-the-badge&logo=Gitbook&logoColor=white" alt="Gitbook Badge"/>
+  </a>
+  <a href="https://www.linkedin.com/in/th4ntis/">
+    <img src="https://img.shields.io/badge/LinkedIn-blue?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn Badge"/>
   </a>
   <a href="https://twitter.com/Th4ntis">
     <img src="https://img.shields.io/badge/Twitter-black?style=for-the-badge&logo=twitter&logoColor=white" alt="Twitter Badge"/>
@@ -43,14 +43,13 @@
 </h1>
 
 <div align="center">
-  <img src="/assets/TWITTER BANNER.jpg" width="800" height="250"/>
-</div>
+I'm [Th4ntis](https://th4ntis.com), a cyber security and information security enthusiast. I enjoy the world of Cyber Security and Information Security as a career and a hobby. I'm a professional penetration tester who specializes in wireless hacking, my background also includes network penetration testing. I have my PNPT, and I enjoy tinkering with electronics and sharing my knowledge to others via my [blog](https://blog.th4ntis.com) and my [gitbook of CyberSec notes](https://cybersec.th4ntis.com).
 
-
-### 🕷️: About Me :
-I'm Th4ntis, a cyber security and information security enthusiast. I enjoy the world of Cyber Security and Information Security as a career and a hobby. Be sure to check out my Gitbook for all my notes, walkthroughs, how to's and more. That is currently my "blog" until I update my real blog.
+![Banner](https://github.com/Th4ntis/th4ntis.github.io/raw/main/assets/TWITTER%20BANNER.jpg)
 
 ---
 
 ### :fire: My Stats :
 [![GitHub Streak](http://github-readme-streak-stats.herokuapp.com?user=th4ntis&theme=dark&background=000000)](https://git.io/streak-stats)
+
+</div>
