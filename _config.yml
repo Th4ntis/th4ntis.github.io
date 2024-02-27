@@ -48,7 +48,7 @@ minima:
     - { platform: twitter,        user_url: "https://twitter.com/th4ntis" }
     - { platform: mastodon,       user_url: "https://infosec.exchange/@th4ntis" }
   # - { platform: bluesky,        user_url: "https://bsky.app/profile/th4ntis.bsky.social" }
-  # - { platform: HackTheBox,     user_url: "https://app.hackthebox.com/profile/274909" }
+    - { platform: HTB,            user_url: "https://app.hackthebox.com/profile/274909" }
   # - { platform: TryHackMe,      user_url: "https://tryhackme.com/p/th4ntis" }
   #  - { platform: x,              user_url: "https://x.com/th4ntis" }
   #  - { platform: youtube,        user_url: "https://www.youtube.com/jekyll" }
