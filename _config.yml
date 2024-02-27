@@ -47,8 +47,8 @@ minima:
     - { platform: linkedin,       user_url: "https://www.linkedin.com/in/damian-roneker" }
     - { platform: twitter,        user_url: "https://twitter.com/th4ntis" }
     - { platform: mastodon,       user_url: "https://infosec.exchange/@th4ntis" }
-    - { platform: hack-the-box,   user_url: "https://app.hackthebox.com/profile/274909" }
-    - { platform: try-hack-me,    user_url: "https://tryhackme.com/p/th4ntis" }
+    - { platform: HTB,            user_url: "https://app.hackthebox.com/profile/274909" }
+    - { platform: THM,            user_url: "https://tryhackme.com/p/th4ntis" }
   # - { platform: bluesky,        user_url: "https://bsky.app/profile/th4ntis.bsky.social" }
   # - { platform: x,              user_url: "https://x.com/th4ntis" }
   # - { platform: youtube,        user_url: "https://www.youtube.com/jekyll" }
