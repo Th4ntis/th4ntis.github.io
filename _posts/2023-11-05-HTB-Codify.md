@@ -6,6 +6,8 @@ author:
 - th4ntis
 ---
 
+This is my walkthrough on [Codify](https://app.hackthebox.com/machines/Codify)
+
 # Initial Scan
 
 ```nmap
