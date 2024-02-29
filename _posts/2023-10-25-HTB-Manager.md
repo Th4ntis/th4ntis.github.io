@@ -6,7 +6,7 @@ author:
 - th4ntis
 ---
 
-This is my Walkthrough on [Manager](https://app.hackthebox.com/machines/Manager) - A Hack The Box Seasonal Machine
+This is my Walkthrough on [Manager](https://app.hackthebox.com/machines/Manager)
 
 # Initial Scan
 
