@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Hack The Box Analytics Walkthrough"
+title: "Hack The Box - Analytics"
 categories: guide
 author:
 - th4ntis
