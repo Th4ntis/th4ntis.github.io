@@ -6,7 +6,7 @@ author:
 - th4ntis
 ---
 
-This is my walkthrough for HackTheBox [Analytics Box](https://app.hackthebox.com/machines/Analytics)
+This is my walkthrough on [Analytics](https://app.hackthebox.com/machines/Analytics)
 
 ![](https://github.com/Th4ntis/CyberSecNotes/raw/main/.gitbook/assets/image%20(840).png)
 
