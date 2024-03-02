@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "A guide to Wardriving with a Raspberry Pi"
+title: "Wardriving with a Raspberry Pi"
 categories: guide
 author:
 - th4ntis
