@@ -63,7 +63,10 @@ Before we start, we should make a couple quick modifications. We can run kismet 
 
 In our `kismet_site.conf` file we want to add a source, as in a WiFi or bluetooth device, our GPS configuration if we are using a GPS dongle/adapter, and our wardriving settings.
 
-I run with multiple adapters and a [WiFi Coconut](https://shop.hak5.org/products/wifi-coconut). We need to find the name of our sources first. Run `ip a` to find these, and grab the name of it.
+I run with multiple adapters and a [WiFi Coconut](https://shop.hak5.org/products/wifi-coconut). We need to find the name of our sources first. To find these, and grab the name of it run:
+```
+ip a
+```
 
 ![image](https://github.com/Th4ntis/th4ntis.github.io/assets/53808039/c642311e-a694-4102-9dcb-c6c121b1e475)
 
