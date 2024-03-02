@@ -86,7 +86,8 @@ ls /dev/tty*
 ![image](https://github.com/Th4ntis/th4ntis.github.io/assets/53808039/422e6ff2-2eef-48e5-8160-48b1582a4a58)
 
 After we have that we have gpsd use that device with:
-```gpsd /dev/ttyUSB0
+```
+gpsd /dev/ttyUSB0
 ```
 and verify it's working with
 ```
@@ -98,7 +99,6 @@ OR
 ```
 cgps
 ```
-CGPS:
 ![image](https://github.com/Th4ntis/th4ntis.github.io/assets/53808039/d75350e2-09fb-4563-900c-5957a6572235)
 
 Once we have that set, we can add our GPS into our `kismet_site.conf` file as well.
