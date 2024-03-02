@@ -6,8 +6,10 @@ author:
 - th4ntis
 ---
 
-I'm going to show you how to do some wardriving. You can find more notes on [wardriving](https://cybersec.th4ntis.com/networking/wireless/wardriving-wifi-sniffing) here. This will cover using an adroid phone or a laptop running linux.
+War driving, also known as "WiFi sniffing" is the process of locating WiFi networks, and potentially viewing their traffic. You can find more notes on wardriving [here on my gitbook](https://cybersec.th4ntis.com/networking/wireless/wardriving-wifi-sniffing).
 
+
+The following sections will cover how to begin wardriving using an android device or a laptop that runs on Debian based linux distributions.
 # Android
 This part is very simple, and it doesn't take much at all. As long as you have a phone running android, you can install the [Wigle WiFi Wardriving app](https://play.google.com/store/apps/details?id=net.wigle.wigleandroid). With this you can make an account on [Wigle.net](https://wigle.net/) and keep track of your individual stats and uploads. Though that isn't required, you can upload anonymously as well.
 
