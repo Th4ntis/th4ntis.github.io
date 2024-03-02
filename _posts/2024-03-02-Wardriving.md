@@ -74,24 +74,43 @@ We want to add that to our `kismet_site.conf` file.
 ## GPS
 If we have a GPS adapter and want to use that, we need to tell the system to use that, depending on your device it will be either `dev/ttyUSB0` or `/dev/ttyASM0` then set it with with `gpsd`. 
 
-The easiest way to find this is to run `ls /dev/tty*` before and after plugging in your adapter.
+The easiest way to find this is to run the following before and after plugging in your adapter:
+```
+ls /dev/tty*
+```
+
 
 ![image](https://github.com/Th4ntis/th4ntis.github.io/assets/53808039/422e6ff2-2eef-48e5-8160-48b1582a4a58)
 
-After we have that we have gpsd use that device with `gpsd /dev/ttyUSB0` and verify it's working with `gpsmon` OR `cgps`.
-
-GPSMON:
+After we have that we have gpsd use that device with:
+```gpsd /dev/ttyUSB0
+```
+and verify it's working with
+```
+gpsmon
+```
 ![image](https://github.com/Th4ntis/th4ntis.github.io/assets/53808039/8dea8090-d307-40a9-a6c8-a3f62e778354)
 
+OR
+```
+cgps
+```
 CGPS:
 ![image](https://github.com/Th4ntis/th4ntis.github.io/assets/53808039/d75350e2-09fb-4563-900c-5957a6572235)
 
 Once we have that set, we can add our GPS into our `kismet_site.conf` file as well.
 
-Now last of all, is to add the wardriving mode to our .conf file as well. We don't HAVE to do this, we can simply just run `kismet --override wardrive` to run it in wardrive mode. But if we are going to be using it for wardriving by default, we can take the `/etc/kismet/kismet_wardrive.conf` and add that to our `kismet_site.conf` file. Either one is fine.
+Now last of all, is to add the wardriving mode to our .conf file as well. We don't HAVE to do this, we can simply just run
+```
+kismet --override wardrive
+```
+to run it in wardrive mode. But if we are going to be using it for wardriving by default, we can take the `/etc/kismet/kismet_wardrive.conf` and add that to our `kismet_site.conf` file. Either one is fine.
 
-We can copy/paste the contents in there or run
-`cat /etc/kismet/kismet_wardrive.conf | sudo tee -a /etc/kismet/kismet_site.conf > /dev/null` to automatically copy all the contents over.
+We can copy/paste the contents in there or run the following to automatically copy all the contents over:
+```
+cat /etc/kismet/kismet_wardrive.conf | sudo tee -a /etc/kismet/kismet_site.conf > /dev/null
+```
+
 
 So now our `/etc/kismet/kismet_site.conf` file should look like this
 ![image](https://github.com/Th4ntis/th4ntis.github.io/assets/53808039/e4c101fd-d79f-4ace-9d40-58c14bbef138)
@@ -99,7 +118,15 @@ So now our `/etc/kismet/kismet_site.conf` file should look like this
 With everything plugged in and on, we can now run kismet!
 
 # Running Kismet
-Simply run `kismet` or if you didn't add the wardrive.conf to your site.conf, run `kismet --override wardrive`. 
+Simply run
+```
+kismet
+````
+
+or if you didn't add the wardrive.conf to your site.conf, run:
+```
+kismet --override wardrive
+``` 
 ![image](https://github.com/Th4ntis/th4ntis.github.io/assets/53808039/576d67cf-75f9-47a4-bbe2-4ee165ea32fb)
 
 Then we're wardriving! We can verify our everything by either watching the screen fill with info
