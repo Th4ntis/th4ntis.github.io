@@ -29,9 +29,9 @@ From there it's simple. You've done it, you've done some wardriving. Look around
 # Linux
 For this you will need a couple things, like WiFi Adapters, and the [Kismet](https://www.kismetwireless.net/) software. A GPS Adapter and the [GPSD](https://gpsd.io/) software is not *REQUIRED* but will make it a lot more fun and adds the ability to see where you seen a specific WiFi. 
 
-I am running Debian but this also work on other linux distros. I will be covering how I did this on Debian and other Ubuntu based distros but they have [documentation](https://www.kismetwireless.net/docs/readme/installing/linux/#installing-from-source) on installing it from source.
-
 ## Installing Kismet
+I am running Debian but this also work on other linux distros. I will be covering how I did this on Debian and other Debian based distros but they have [documentation](https://www.kismetwireless.net/docs/readme/installing/linux/#installing-from-source) on installing it from source.
+
 As I am running Debian 12(Bookworm), we will run the following commands to install kismet
 
 ```
