@@ -8,7 +8,7 @@ author:
 
 A virtual machine(VM) is the virtualization or emulation of a computer system. It's a way to run a computer system such as windows or linux. You can use this to test new/other features, software, configurations, etc. 
 
-The linux distribution [Kali](https://www.kali.org/) is usually a go to linux ditro for those in various aspects of Cyber Security, such as Penetration Testers (Ethical Hackers). It comes with a large assortment of pre-installed cyber security tools, or the ability to easily install them. Though this is not a recommended first linux distribution. For first time linux users, I recommend checking out [Ubuntu](2023-05-12-Ubuntu-VM-Setup.html).
+The linux distribution [Kali](https://www.kali.org/) is usually a go to linux ditro for those in various aspects of Cyber Security, such as Penetration Testers (Ethical Hackers). It comes with a large assortment of pre-installed cyber security tools, or the ability to easily install them. Though this is not a recommended first linux distribution. For first time linux users, I recommend checking out [Ubuntu](https://th4ntis.com/guide/2023/05/12/Ubuntu-VM-Setup.html).
 
 VM software that is used to emulate other computer systems are [VMWare Workstation Player](https://www.vmware.com/products/workstation-player.html) (Free version), [VMWare Workstation Pro](https://www.vmware.com/products/workstation-pro.html) (Paid version), or [Virtualbox](https://www.virtualbox.org/). I have VMWare Workstation Pro but Player works just as well. You can go with either VMWare or Virtualbox, both work and it just comes down to personal preference on the application and what you're use to. There's minor differences between the two for most end users.
 
@@ -52,7 +52,7 @@ From here, you can see the default settings on the site, but can edit them bette
 
 # Kali ISO
 
-We will start with the Typical configuration, similar to what we did at the start of the [Ubuntu VM Setup Guide](2023-05-12-Ubuntu-VM-Setup.html)
+We will start with the Typical configuration, similar to what we did at the start of the [Ubuntu VM Setup Guide](https://th4ntis.com/guide/2023/05/12/Ubuntu-VM-Setup.html)
 
 Now we close that and can start our VM and install it. Once we start the VM, it'll take us to a list, I'm going to choose Graphical Install
 
