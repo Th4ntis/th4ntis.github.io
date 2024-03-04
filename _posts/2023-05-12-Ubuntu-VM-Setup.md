@@ -6,17 +6,17 @@ author:
 - th4ntis
 ---
 
-I usually go with an [Ubuntu](https://ubuntu.com/) (I usually go with [Kubuntu](https://kubuntu.org/)) VM with [VMWare](https://customerconnect.vmware.com/en/downloads/details?downloadGroup=WKST-PLAYER-1623-NEW\&productId=1039\&rPId=85399) or [Virtualbox](https://www.virtualbox.org/). I have VMWare Workstation Pro but Player works just as well. You can go with either VMWare or Virtualbox, both work and it just comes down to personal preference on the application and what you're use to.
+A virtual machine(VM) is the virtualization or emulation of a computer system. It's a way to run a computer system such as windows or linux. You can use this to test new/other features, software, configurations, etc. 
 
-Obviously your setup may differ depending on your system specs. I typically go with 4GB(4096 MB) of RAM per VM, 2 processors and 2 cores per processor but I am running with 32GB of RAM and an Intel i7-10750H.
+The linux distribution [Ubuntu](https://ubuntu.com/) is usually a good first linux distro for most users as it has LTS(Long time support) has most drivers for hardware included or easy to obtain, and it usually stable. I usually go with [Kubuntu](https://kubuntu.org/) as it has the K Desktop Environemtn (KDE) which is very lightweight so it won't take up as many resouces with background processes, as well as it's highly customizable to make it look and feel however you like..
 
-If you need to, you can start with 4 or 8GB of RAM and 2 processors and 2 core per processor, for the install so it goes faster then drop it down to 2 or 4GB of RAM and 2 processors and 1 core per processor for the victim machines.
+VM software that is used to emulate other computer systems are [VMWare Workstation Player](https://www.vmware.com/products/workstation-player.html) (Free version), [VMWare Workstation Pro](https://www.vmware.com/products/workstation-pro.html) (Paid version), or [Virtualbox](https://www.virtualbox.org/). I have VMWare Workstation Pro but Player works just as well. You can go with either VMWare or Virtualbox, both work and it just comes down to personal preference on the application and what you're use to. There's minor differences between the two for most end users.
 
-We can go with a [Kali Linux VM](https://www.kali.org/get-kali/) but with this we get to learn about installing specific tools from source, compiling them, and can have just the tools we want/use.&#x20;
+Obviously your setup may differ depending on your system specs. I typically go with 4GB(4096 MB) of RAM per VM, 2 processors and 2 cores per processor but I have a bit beefier machine. If you need to, you can start with 4 or 8GB of RAM and 2 processors and 2 core per processor, for the install so it goes faster then drop it down to 2 or 4GB of RAM and 2 processors and 1 core per processor.
 
-## \*buntu
+# *buntu install
 
-We will start with the Typical configuration
+We will start with a typical configuration
 
 ![Picture](https://files.gitbook.com/v0/b/gitbook-x-prod.appspot.com/o/spaces%2FTdW22AGCceN8oUXfdlKI%2Fuploads%2FtEq66e36Kz756lDXZN9p%2Fimage.png?alt=media&token=990847a2-8d11-4ce1-84d4-d8b0d1114d6d)
 
@@ -48,7 +48,7 @@ Finally we can now customize our hardware. This is where we can customize the RA
 
 Now we close that and can start our VM and install it. This process will be VERY similar for each desktop environment just may look different. Once we start the VM, itll take us to a list, we can select the first option or just let it auto select it after 10 seconds.
 
-So from here we select "Install \*buntu"
+So from here we select `Install *buntu`
 
 ![Picture](https://files.gitbook.com/v0/b/gitbook-x-prod.appspot.com/o/spaces%2FTdW22AGCceN8oUXfdlKI%2Fuploads%2FRqC9Ke4ypMGKVhkLj5ws%2Fimage.png?alt=media&token=4630c256-37b3-428a-b183-dfce10b2de3b)
 
@@ -56,7 +56,7 @@ Select language and keyboard layout
 
 ![Picture](https://files.gitbook.com/v0/b/gitbook-x-prod.appspot.com/o/spaces%2FTdW22AGCceN8oUXfdlKI%2Fuploads%2FTLEEp8DGUNMrARsCUmVg%2Fimage.png?alt=media&token=a277bf22-b702-450d-a6bd-647cf0424e9b)
 
-Make sure you tick 'install third-party software for graphics..." and such.&#x20;
+Make sure you tick 'install third-party software for graphics..." and such to ensure this includes drivers you may need for your hardware.
 
 ![Picture](https://files.gitbook.com/v0/b/gitbook-x-prod.appspot.com/o/spaces%2FTdW22AGCceN8oUXfdlKI%2Fuploads%2FqhjCQRZqSLhQFQCPOPjF%2Fimage.png?alt=media&token=f93802dd-243c-4dd2-bbfa-5c2a60f0bb6b)
 
@@ -92,7 +92,10 @@ From here it will restart and you will be taken to a login screen. So login and 
 
 Depending which Desktop Environment (DE) you chose, you're may look different but that is ok, it's still the same system under the hood.
 
-Once we're in, it's a good idea to open the terminal, in Kubuntu it's called `Konsole`, and we update everything with `sudo apt update && sudo apt upgrade -y`.
+Once we're in, it's a good idea to open the terminal, in Kubuntu it's called `Konsole`, and we update everything with:
+```
+sudo apt update && sudo apt upgrade -y
+```
 
 Now is when you will want to shut down the VM and adjust RAM and Processors if needed. Drop it for 2GB or 4GB of RAM and 1 or 2 processors.
 
