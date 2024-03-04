@@ -6,9 +6,20 @@ author:
 - th4ntis
 ---
 
-The same startup we did in the [Windows Server 2019 Setup](https://blog.th4ntis.com/Windows-Server-2019-Setup). After we start our VM and be ready to push a button to boot to the ISO as the screen will say. This is a pretty standard install, mostly just clicking next.
+A virtual machine(VM) is the virtualization or emulation of a computer system. It's a way to run a computer system such as windows or linux. You can use this to test new/other features, software, configurations, etc.
 
-Once we get to this screen, we have some options. Typical it's with or without Desktop experience. I'm use to Desktop Experience with 2019 and previous, so i'm going to switch it up this time go with  out the Desktop experience so it's just CLI(Command Line Interface).
+VM software that is used to emulate other computer systems are [VMWare Workstation Player](https://www.vmware.com/products/workstation-player.html) (Free version), [VMWare Workstation Pro](https://www.vmware.com/products/workstation-pro.html) (Paid version), or [Virtualbox](https://www.virtualbox.org/). I have VMWare Workstation Pro but Player works just as well. You can go with either VMWare or Virtualbox, both work and it just comes down to personal preference on the application and what you're use to. There's minor differences between the two for most end users.
+
+Obviously your setup may differ depending on your system specs. I typically go with 4GB(4096 MB) of RAM per VM, 2 processors and 2 cores per processor but I have a bit beefier machine. If you need to, you can start with 4 or 8GB of RAM and 2 processors and 2 core per processor, for the install so it goes faster then drop it down to 2 or 4GB of RAM and 2 processors and 1 core per processor.
+
+# Windows Server 2022
+
+You can find a link to Evaluation ISOs [here](https://www.microsoft.com/en-us/evalcenter/evaluate-windows-server-2022) on Microsofts website.
+
+The same startup we did in the [Windows Server 2019 Setup](https://th4ntis.com/guide/2023/05/16/Windows-Server-2019-Setup.html). After we start our VM and be ready to push a button to boot to the ISO as the screen will say. This is a pretty standard install, mostly just clicking next.
+
+Once we get to this screen, we have some options. Typical it's with or without Desktop experience. I'm use to Desktop Experience with 2019 and previous, so i'm going to switch it up this time go with out the Desktop experience so it's just CLI(Command Line Interface).
+![](https://github.com/Th4ntis/CyberSecNotes/raw/main/.gitbook/assets/image%20(500).png)
 
 Select the drive and click next and let it install, it will automatically reboot. Once it reboots, follow the prompts, set your admin password. and you'll be brought to the SConfig menu.
 
@@ -38,7 +49,7 @@ Now I am going to take this tip from John Hammond. After you create the Snap Sho
 
 # Domain Controller Setup
 
-We should first run `SConfig` to change the hostname and set a static IP. After this we can run the following command to turn this into a DC.
+We should first run `SConfig` to change the hostname and set a static IP. After this we can run the following commands in order to turn this into a DC.
 
 ```powershell
 Install-WindowsFeature AD-Domain-Services -IncludeManagementTools
@@ -48,6 +59,8 @@ install-ADDSForest
 
 ![](https://github.com/Th4ntis/CyberSecNotes/raw/main/.gitbook/assets/image%20(463).png)
 
-Now once it has been restarted we can add computers to the domain. We can do this via GUI, or command line with
-
-`Add-Computer -DomainName web.local -Credential web\Administrator -Force -Restart` - Changing the web.local and web\Administrator, to what you changed your DomainName to from the previous step.
+Now once it has been restarted we can add computers to the domain. We can do this via GUI, or command line with:
+```
+Add-Computer -DomainName web.local -Credential web\Administrator -Force -Restart
+```
+Changing the web.local and web\Administrator, to what you changed your DomainName to from the previous step.
