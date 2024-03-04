@@ -6,19 +6,23 @@ author:
 - th4ntis
 ---
 
-I usually go with a [Windows 10](https://www.microsoft.com/en-us/evalcenter/evaluate-windows-10-enterprise) VM with [VMWare](https://customerconnect.vmware.com/en/downloads/details?downloadGroup=WKST-PLAYER-1623-NEW\&productId=1039\&rPId=85399) or [Virtualbox](https://www.virtualbox.org/). I have VMWare Workstation Pro but Player works just as well. You can go with either VMWare or Virtualbox, both work and it just comes down to personal preference on the application and what you're use to.
+A virtual machine(VM) is the virtualization or emulation of a computer system. It's a way to run a computer system such as windows or linux. You can use this to test new/other features, software, configurations, etc.
 
-Obviously your setup may differ depending on your system specs. I typically go with 4GB(4096 MB) of RAM per VM, 2 processors and 2 cores per processor but I am running with 32GB of RAM and an Intel i7-10750H.
+VM software that is used to emulate other computer systems are [VMWare Workstation Player](https://www.vmware.com/products/workstation-player.html) (Free version), [VMWare Workstation Pro](https://www.vmware.com/products/workstation-pro.html) (Paid version), or [Virtualbox](https://www.virtualbox.org/). I have VMWare Workstation Pro but Player works just as well. You can go with either VMWare or Virtualbox, both work and it just comes down to personal preference on the application and what you're use to. There's minor differences between the two for most end users.
 
-If you need to, you can start with 4 or 8GB of RAM and 2 processors and 2 core per processor, for the install so it goes faster then drop it down to 2 or 4GB of RAM and 2 processors and 1 core per processor for the victim machines.
+Obviously your setup may differ depending on your system specs. I typically go with 4GB(4096 MB) of RAM per VM, 2 processors and 2 cores per processor but I have a bit beefier machine. If you need to, you can start with 4 or 8GB of RAM and 2 processors and 2 core per processor, for the install so it goes faster then drop it down to 2 or 4GB of RAM and 2 processors and 1 core per processor.
+
+# Windows install
+
+You can find a link to Evaluation ISOs [here](https://www.microsoft.com/en-us/evalcenter/evaluate-windows-10-enterprise) on Microsofts website.
 
 ## Starting
 
-We will as before, do a Typical install
+We will do a typical install beginning
 
 ![](https://github.com/Th4ntis/CyberSecNotes/raw/main/.gitbook/assets/image%20(520).png)
 
-Install the System later
+Choose to install the System later
 
 ![](https://github.com/Th4ntis/CyberSecNotes/raw/main/.gitbook/assets/image%20(604).png)
 
@@ -86,7 +90,7 @@ Turn off all settings
 
 ![](https://github.com/Th4ntis/CyberSecNotes/raw/main/.gitbook/assets/image%20(667).png)
 
-Choose Not Now
+Choose "Not now"
 
 ![](https://github.com/Th4ntis/CyberSecNotes/raw/main/.gitbook/assets/image%20(441).png)
 
@@ -94,21 +98,27 @@ Let the install finish with post setup stuff
 
 ![](https://github.com/Th4ntis/CyberSecNotes/raw/main/.gitbook/assets/image%20(188).png)
 
+# Post Install
+
 Now we have our desktop. Time to do some basic setup.
 
 ![](https://github.com/Th4ntis/CyberSecNotes/raw/main/.gitbook/assets/image%20(523).png)
 
-Install VMWare Tools, and Rename the PC, then Add it to the Domain if you are going that route.
-
+Install VMWare Tools by:
+```
 In the Menu Bar of VMWare > VM > Install VMWare Tools
+```
 
-Inside the VM open File Explorer > This PC > Run the VMWare Tools installer
+Inside the VM:
+```
+open File Explorer > This PC > Run the VMWare Tools installer
+```
 
 ![](https://github.com/Th4ntis/CyberSecNotes/raw/main/.gitbook/assets/image%20(453).png)
 
 Then a basic click next on everything. Don't reboot when done since you'll want to reboot after you rename the PC as well.
 
-Open Start Menu, type in Rename
+Open Start Menu, type in `Rename`
 
 ![](https://github.com/Th4ntis/CyberSecNotes/raw/main/.gitbook/assets/image%20(167).png)
 
@@ -128,21 +138,34 @@ Now is when you will want to shut down the VM and adjust RAM and Processors if n
 
 # Joining a Domain
 
+If you're looking to add this machine to a domain to emulate a corporate environment, you'll want to make sure you setup a [Windows Server 2019 VM](https://th4ntis.com/guide/2023/05/16/Windows-Server-2019-Setup.html) or a [Windows Server 2022 VM](https://th4ntis.com/guide/2023/05/17/Windows-Server-2022-Setup.html) first.
+
 You _may_ want a second user machine as well but only if you're machine is capable of it. It's not required but it will help. This process will be the same for both machines if setting up two.
 
-First we need to get the IP of our Domain Controller. Command Prompt > `ipconfig`
+First we need to get the IP of our Domain Controller by opening Command Prompt and running
+```
+ipconfig
+```
 
 ![](https://github.com/Th4ntis/CyberSecNotes/raw/main/.gitbook/assets/image%20(507).png)
 
 We need to set the users machine DNS to our Domain Controllers IP.
 
-On the Users machine: Start Menu > Setting Icon > Network & Internet > Change Adapter Options
+On the Users machine: 
+
+```
+Start Menu > Setting Icon > Network & Internet > Change Adapter Options
+```
 
 ![](https://github.com/Th4ntis/CyberSecNotes/raw/main/.gitbook/assets/image%20(280).png)
 
 ![](https://github.com/Th4ntis/CyberSecNotes/raw/main/.gitbook/assets/image%20(714).png)
 
-Right click on the Ethernet Adapter > Properties > Double Click on Internet Protocol Version 4 (TCP/IPv4)
+Right click on the Ethernet Adapter
+
+```
+Properties > Double Click on Internet Protocol Version 4 (TCP/IPv4)
+```
 
 ![](https://github.com/Th4ntis/CyberSecNotes/raw/main/.gitbook/assets/image%20(458).png)
 
@@ -150,7 +173,11 @@ Change the DNS option to your Domain Controllers IP > OK
 
 ![](https://github.com/Th4ntis/CyberSecNotes/raw/main/.gitbook/assets/image%20(273).png)
 
-From here on the Users machine still: Star Menu > Domain > Access Work or School
+From here on the Users machine still: 
+
+```
+Start Menu > Domain > Access Work or School
+```
 
 ![](https://github.com/Th4ntis/CyberSecNotes/raw/main/.gitbook/assets/image%20(778).png)
 
@@ -184,7 +211,11 @@ After you have signed in with a user you created. Sing out and sign back in as t
 
 ![](https://github.com/Th4ntis/CyberSecNotes/raw/main/.gitbook/assets/image%20(598).png)
 
-We're going to add the user we logged in as, as an admin on this computer. Start Menu > Computer Management > Local Users and Groups > Groups > Administrators
+We're going to add the user we logged in as, as an admin on this computer
+
+```
+Start Menu > Computer Management > Local Users and Groups > Groups > Administrators
+```
 
 ![](https://github.com/Th4ntis/CyberSecNotes/raw/main/.gitbook/assets/image%20(675).png)
 
