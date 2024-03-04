@@ -6,15 +6,53 @@ author:
 - th4ntis
 ---
 
-I typically prefer to install it myself([using the ISO](https://www.kali.org/get-kali/#kali-installer-images)), BUT you can grab a [pre-made VM](https://www.kali.org/get-kali/#kali-virtual-machines) (using [7-Zip](https://www.7-zip.org/download.html) to extract it) from them. I have VMWare Workstation Pro but Player works just as well. You can go with either VMWare or Virtualbox, both work and it just comes down to personal preference on the application and what you're use to.
+A virtual machine(VM) is the virtualization or emulation of a computer system. It's a way to run a computer system such as windows or linux. You can use this to test new/other features, software, configurations, etc. 
 
-Obviously your setup may differ depending on your system specs. I typically go with 4GB(4096 MB) of RAM per VM, 2 processors and 2 cores per processor but I am running with 32GB of RAM and an Intel i7-10750H.
+The linux distribution [Kali](https://www.kali.org/) is usually a go to linux ditro for those in various aspects of Cyber Security, such as Penetration Testers (Ethical Hackers). It comes with a large assortment of pre-installed cyber security tools, or the ability to easily install them. Though this is not a recommended first linux distribution. For first time linux users, I recommend checking out [Ubuntu](2023-05-12-Ubuntu-VM-Setup).
 
-If you need to, you can start with 4 or 8GB of RAM and 2 processors and 2 core per processor, for the install so it goes faster then drop it down to 2 or 4GB of RAM and 2 processors and 1 core per processor for the victim machines.
+VM software that is used to emulate other computer systems are [VMWare Workstation Player](https://www.vmware.com/products/workstation-player.html) (Free version), [VMWare Workstation Pro](https://www.vmware.com/products/workstation-pro.html) (Paid version), or [Virtualbox](https://www.virtualbox.org/). I have VMWare Workstation Pro but Player works just as well. You can go with either VMWare or Virtualbox, both work and it just comes down to personal preference on the application and what you're use to. There's minor differences between the two for most end users.
 
-## Kali ISO
+Obviously your setup may differ depending on your system specs. I typically go with 4GB(4096 MB) of RAM per VM, 2 processors and 2 cores per processor but I have a bit beefier machine. If you need to, you can start with 4 or 8GB of RAM and 2 processors and 2 core per processor, for the install so it goes faster then drop it down to 2 or 4GB of RAM and 2 processors and 1 core per processor.
 
-We will start with the Typical configuration, similar to what we did at the start of the [Ubuntu VM Setup](https://blog.th4ntis.com/Ubuntu-VM-Setup)
+# Kali VM
+
+## VMWare / Virtualbox
+
+The VM version is essentially the same just minorly different when choosing the file to open. VMWare looks for a `.vmx` file, while VirtualBox looks for a `.vbox` file. Upon launching, the default credentials are be the word `kali` for the username AND password.
+
+![](https://github.com/Th4ntis/CyberSecNotes/raw/main/.gitbook/assets/image%20(517).png)
+
+Download the .7z file and extract it with [7Zip](https://www.7-zip.org/) in whatever manor that works for you.
+
+### VMWare
+
+![](https://github.com/Th4ntis/CyberSecNotes/raw/main/.gitbook/assets/image%20(741).png)
+
+With the VM extracted, within VMWare, File > Open, then navigate to the directory with the .vmx file.
+
+![](https://github.com/Th4ntis/CyberSecNotes/raw/main/.gitbook/assets/image%20(347).png)
+
+From here, you can see the default settings on the site, but can edit them better suited to your machine.
+
+![](https://github.com/Th4ntis/CyberSecNotes/raw/main/.gitbook/assets/image%20(237).png)
+
+### Virtualbox
+
+With the VM extracted, select the add button, then navigate to the directory with the .vbox file.
+
+![](https://github.com/Th4ntis/CyberSecNotes/raw/main/.gitbook/assets/image%20(452).png)
+
+![](https://github.com/Th4ntis/CyberSecNotes/raw/main/.gitbook/assets/image%20(629).png)
+
+From here, you can see the default settings on the site, but can edit them better suited to your machine.
+
+![](https://github.com/Th4ntis/CyberSecNotes/raw/main/.gitbook/assets/image%20(540).png)
+
+***
+
+# Kali ISO
+
+We will start with the Typical configuration, similar to what we did at the start of the [Ubuntu VM Setup Guide](2023-05-12-Ubuntu-VM-Setup)
 
 Now we close that and can start our VM and install it. Once we start the VM, it'll take us to a list, I'm going to choose Graphical Install
 
@@ -85,42 +123,6 @@ After that finishes installing, choose to install the GRUB bootloader
 Once install is finished, you'll beboot the system and done!
 
 ![](https://github.com/Th4ntis/CyberSecNotes/raw/main/.gitbook/assets/image%20(508).png)
-
-***
-
-# Kali VM
-
-## VMWare / Virtualbox
-
-The VM version is essentially the same just minorly different when choosing the file to open. VMWare looks for a `.vmx` file, while VirtualBox looks for a `.vbox` file. Upon launching, the default credentials are be the word `kali` for the username AND password.
-
-![](https://github.com/Th4ntis/CyberSecNotes/raw/main/.gitbook/assets/image%20(517).png)
-
-Download the .7z file and extract it with [7Zip](https://www.7-zip.org/) in whatever manor that works for you.
-
-### VMWare
-
-![](https://github.com/Th4ntis/CyberSecNotes/raw/main/.gitbook/assets/image%20(741).png)
-
-With the VM extracted, within VMWare, File > Open, then navigate to the directory with the .vmx file.
-
-![](https://github.com/Th4ntis/CyberSecNotes/raw/main/.gitbook/assets/image%20(347).png)
-
-From here, you can see the default settings on the site, but can edit them better suited to your machine.
-
-![](https://github.com/Th4ntis/CyberSecNotes/raw/main/.gitbook/assets/image%20(237).png)
-
-### Virtualbox
-
-With the VM extracted, select the add button, then navigate to the directory with the .vbox file.
-
-![](https://github.com/Th4ntis/CyberSecNotes/raw/main/.gitbook/assets/image%20(452).png)
-
-![](https://github.com/Th4ntis/CyberSecNotes/raw/main/.gitbook/assets/image%20(629).png)
-
-From here, you can see the default settings on the site, but can edit them better suited to your machine.
-
-![](https://github.com/Th4ntis/CyberSecNotes/raw/main/.gitbook/assets/image%20(540).png)
 
 ***
 
