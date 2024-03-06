@@ -17,8 +17,8 @@ For this, I will be using Debian as my host machine operating system, but this c
 
 # Flashing
 After the image is downloaded, extract it so you have a `.img` file.
-![image](https://github.com/Th4ntis/th4ntis.github.io/assets/53808039/16201579-e6e3-49d2-809b-b63627df49c4)
 
+![image](https://github.com/Th4ntis/th4ntis.github.io/assets/53808039/16201579-e6e3-49d2-809b-b63627df49c4)
 
 Open the RaspberryPi Imager and choose your device. As I am using a Pi Zero 2W, I will be selecing that.
 ![image](https://github.com/Th4ntis/th4ntis.github.io/assets/53808039/fbab3173-3041-4c5c-9f3b-33f7190ee96c)
