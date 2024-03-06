@@ -6,64 +6,42 @@ author:
 - th4ntis
 ---
 
-Basic info of War driving can be found [here](https://cybersec.th4ntis.com/networking/wireless/wardriving-wifi-sniffing). War driving, also known as "WiFi sniffing" is the process of locating WiFi networks, and potentially sniffing their traffic. I am running this on a RaspberryPi 4 but you can run this on any linux host, though for wardriving you want it as portable as possible.
+War driving, also known as "WiFi sniffing" is the process of locating WiFi networks, and potentially viewing their traffic. You can find more notes on wardriving [here on my gitbook](https://cybersec.th4ntis.com/networking/wireless/wardriving-wifi-sniffing).
 
-# Hardware
-* I've found running on [RaspberryPi](https://www.raspberrypi.com/) (I use a 3B+ and a 4) running [Ubuntu](https://ubuntu.com/download/raspberry-pi) is easiest.
+# RaspberryPi
+I've found running on [RaspberryPi](https://www.raspberrypi.com/) (I use a 3B+ and a 4) running [Raspbian-Lite](https://www.raspberrypi.com/software/operating-systems/#raspberry-pi-os-64-bit) is easiest. There is no GUI in this as we won't really be using it. This will all be commandline based.
+For this you will need a couple things other than a RaspberryPi, like WiFi Adapters, and the [Kismet](https://www.kismetwireless.net/) software. A GPS Adapter and the [GPSD](https://gpsd.io/) software is not *REQUIRED* but will make it a lot more fun and adds the ability to see where you seen a specific WiFi. 
 
-I have and recommend the following adapters:
-
-## WiFi Adapters
+## WiFi Radios
+From here we need any WiFi radio we can use, including the built in one. I myself have and recommend these adapters:
 
 * [Alfa AWUS036ACM](https://www.amazon.com/Alfa-AWUS036ACM-Long-Range-Dual-Band-Wireless/dp/B073X6RL9D) <-- Capable of 2.4GHz and 5GHz
-* [Alfa AWUS036ACHM](https://www.amazon.com/gp/product/B08SJBV1N3/ref=ox\sc_act_title_1?smid=A20G3A026MV70R\&psc=1) <-- Capable of 2.4GHz and 5GHz
-* [Alfa AWUS036ACH](https://www.amazon.com/dp/B08SJC78FH?ref_=cm_sw_r_cp_ud_dp_PSZZG6J9X0XH40GXB685) <-- Capable of 2.4GHz and 5GHz (This more than likely \*will\* require driver installation)
-* [WiFi Coconut](https://shop.hak5.org/collections/wifi-pentesting/products/wifi-coconut) <-- Capable of only 2.4GHz BUT has 14 integrated WiFi radios so you can be on all channels, all the time.
+* [Alfa AWUS036ACHM](https://www.amazon.com/gp/product/B08SJBV1N3/ref=ox\_sc\_act\_title\_1?smid=A20G3A026MV70R\&psc=1) <-- Capable of 2.4GHz and 5GHz
+* [Alfa AWUS036ACH](https://www.amazon.com/dp/B08SJC78FH?ref\_=cm\_sw\_r\_cp\_ud\_dp\_PSZZG6J9X0XH40GXB685) <-- Capable of 2.4GHz and 5GHz (This more than likely \*will\* require driver installation)
+* [Panda Wireless PAU09 N600](https://www.amazon.com/Panda-Wireless-PAU09-Adapter-Antennas/dp/B01LY35HGO) <-- Capable of 2.4GHz and 5GHz
+* [Alfa AWUS036NEH](https://www.amazon.com/AWUS036NEH-Range-WIRELESS-802-11b-USBAdapter/dp/B0035OCVO6)
+* [Alfa AWUS036NH](https://www.amazon.com/Alfa-AWUS036NH-802-11g-Wireless-Long-Range/dp/B003YIFHJY)
+* [Panda Wireless PAU05](https://www.amazon.com/Panda-300Mbps-Wireless-USB-Adapter/dp/B00EQT0YK2)
+* [TP-Link TL-WN722N](https://www.amazon.com/TP-Link-TL-WN722N-Wireless-network-Adapter/dp/B002SZEOLG)
+* [Ralink USB WiFi RT5370](https://www.amazon.com/Ralink-RT5370-Raspberry-Adapter-Function/dp/B019XUDHFC)
 
-## GPS Adapters
-
-* [GlobalSat BU-353-S4](https://www.amazon.com/GlobalSat-BU-353-S4-Receiver-Black-Improved-New/dp/B098L799NH/ref=sr_1_1?crid=2WAQ665IR5UV1\&keywords=GlobalSat+BU-353-S4\&qid=1660969339\&s=electronics\&sprefix=globalsat+bu-353-s4+%2Celectronics%2C148\&sr=1-1)
+## GPS
+If you're looking for GPS adapters, I also have the following, I primarily use the [GlobalSat BU-353-S4](https://www.amazon.com/GlobalSat-BU-353-S4-Receiver-Black-Improved-New/dp/B098L799NH/ref=sr_1_1?crid=2WAQ665IR5UV1\&keywords=GlobalSat+BU-353-S4\&qid=1660969339\&s=electronics\&sprefix=globalsat+bu-353-s4+%2Celectronics%2C148\&sr=1-1)
 * [VK-162](https://www.amazon.com/dp/B01EROIUEW?ref=ppx_pop_mob_ap_share)
 * [HiLetgo VK172](https://www.amazon.com/dp/B01MTU9KTF?ref=ppx_pop_mob_ap_share)
 
-# Software
-
-* [Kismet](https://www.kismetwireless.net/) - A powerful and popular tool made by [Dragorn](https://twitter.com/KismetWireless). "Kismet is a wireless network and device detector, sniffer, wardriving tool, and WIDS (wireless intrusion detection) framework.It works with Wi-Fi interfaces, Bluetooth interfaces, some SDR (software defined radio) hardware like the RTLSDR, and other specialized capture hardware."
-  * To install kismet, follow [the guide on their docs](https://www.kismetwireless.net/docs/readme/packages/).
-  * Kismet Config files readme can be found [here](https://www.kismetwireless.net/docs/readme/configuring/configfiles/).
-  * Kismet wardriving overlay docs can be found [here](https://www.kismetwireless.net/docs/readme/configuring/wardrive/).&#x20;
-* [GPSD](https://en.wikipedia.org/wiki/Gpsd) - **gpsd** is a computer software program that collects data from a GPS receiver and provides the data via an IP network to potentially multiple client applications in a server-client application architecture.
-  * This can be installed on most Ubuntu/Raspbian `sudo apt install gpsd gpsd-clients`
-
-Raspbian Install (I usually go with Nightly builds):
+## Installing Kismet
+As thius is on a RPi running Raspbian, we will follow the instruction on installing on that.
 
 ```
-wget -O - https://www.kismetwireless.net/repos/kismet-release.gpg.key | sudo apt-key add -
-echo 'deb https://www.kismetwireless.net/repos/apt/git/buster buster main' | sudo tee /etc/apt/sources.list.d/kismet.list
-sudo apt update
-sudo usermod -aG kismet your-user-here
-sudo apt install kismet
+COMING SOON
 ```
-
-Ubuntu Install (I usually go with Nightly builds):
-
-```
-wget -O - https://www.kismetwireless.net/repos/kismet-release.gpg.key | sudo apt-key add -
-echo 'deb https://www.kismetwireless.net/repos/apt/git/jammy jammy main' | sudo tee /etc/apt/sources.list.d/kismet.list
-sudo apt update
-sudo usermod -aG kismet your-user-here
-sudo apt install kismet
-```
-
-##
-
-***
 
 # Setup
 
 ## kismet_site.conf file
 
-As long as you have a large enough MicroSD the Pi is running on, you _**should**_ be fine BUT if you would like to use an external HDD or USB Drive for storage, we need to set that to automount.
+As long as you have a large enough MicroSD the Pi is running on, you_**should** be fine BUT if you would like to use an external HDD or USB Drive for storage, we need to set that to automount.
 
 Verify the drive you want mounted with: `df -h` andverify where it's mount location.
 
