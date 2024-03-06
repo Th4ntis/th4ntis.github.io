@@ -7,7 +7,7 @@ author:
 ---
 The [Pwnagotchi](https://twitter.com/pwnagotchi) is an A2C-based “AI” powered by [bettercap](https://www.bettercap.org/) that learns from its surrounding WiFi environment in order to maximize the crackable WPA key material it captures (either through passive sniffing or by performing deauthentication and association attacks).
 
-Originally created by [EvilSocket](https://github.com/evilsocket), it was notmaintained and was picked up by [Jayofelony](https://github.com/jayofelony), [Aliminum-Ice](https://github.com/aluminum-ice), and [WPA2](https://github.com/wpa-2) to continue development. 
+Originally created by [EvilSocket](https://github.com/evilsocket), it was not maintained and was picked up by [Jayofelony](https://github.com/jayofelony), [Aliminum-Ice](https://github.com/aluminum-ice), and [WPA2](https://github.com/wpa-2) to continue development. 
 
 There is great document on the [new website](https://pwnagotchi.org/), as well as the [original website](https://pwnagotchi.ai/).
 
