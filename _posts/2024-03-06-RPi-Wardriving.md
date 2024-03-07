@@ -39,7 +39,9 @@ Choose your device, OS, and SD card.
 
 
 We probably should edit the settings for this to connect it to our WiFi so I am able to SSH into it right away.
+
 ![image](https://github.com/Th4ntis/th4ntis.github.io/assets/53808039/99a9d0c7-3ac5-4324-be56-1ac766e6d580)
+
 ![image](https://github.com/Th4ntis/th4ntis.github.io/assets/53808039/a49711be-8afb-4530-a605-5c7d3fe9a3e3)
 
 Then from here, we save the settings and select yes
@@ -59,6 +61,7 @@ ssh [username]@[ip]
 ```
 
 Windows:
+
 ![image](https://github.com/Th4ntis/th4ntis.github.io/assets/53808039/04b81224-c0cf-47a0-b1e0-242294837b05)
 
 Once you're logged in a good idea is to update your system:
