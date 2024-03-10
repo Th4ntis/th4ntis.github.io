@@ -6,7 +6,7 @@ author:
 # The `>` after `description:` means to ignore line-breaks until next key.
 # If you want to omit the line-break after the end of text, use `>-` instead.
 description: >
-  A quick whoami and Cyber Security and Information Security blog by th4ntis.
+  A quick whoami and Cyber Security/Information Security blog by th4ntis.
 # If you clone the Minima repo and build locally, use this setting.
 theme: minima
 
