@@ -6,7 +6,6 @@ author:
 - th4ntis
 ---
 
-# Preface
 [Docker](https://www.docker.com/) helps developers build, share, run, and verify applications anywhere with containers. More info on containers [here](https://www.docker.com/resources/what-container/).
 
 A **container** is a standard unit of software that packages up code and all its dependencies so the application runs quickly and reliably from one computing environment to another.
