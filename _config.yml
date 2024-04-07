@@ -40,7 +40,7 @@ minima:
   social_links:
     - { platform: github,         user_url: "https://github.com/th4ntis" }
     - { platform: twitter,        user_url: "https://twitter.com/th4ntis" }
-    - { platform: linkedin,       user_url: "https://www.linkedin.com/in/damian-roneker" }
+    - { platform: linkedin,       user_url: "https://www.linkedin.com/in/dth4ntis-damian" }
     - { platform: mastodon,       user_url: "https://infosec.exchange/@th4ntis" }
   # - { platform: HTB,            user_url: "https://app.hackthebox.com/profile/274909" }
   # - { platform: THM,            user_url: "https://tryhackme.com/p/th4ntis" }
