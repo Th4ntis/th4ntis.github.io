@@ -1,11 +1,11 @@
 ---
 layout: post
-title: "Stayng Private Online in 2024"
+title: "Staying Private Online in 2024"
 categories: guide
 author:
 - th4ntis
 ---
-First off, Privacy is what YOU want it to be. There's a lot of ways to go about, some are more simple while others are more indepth and require more effort. If you want to use social media that targets you with ads and tracks and listens to you, but you are aware of that, then by all means! But you have control over how much of your data they get and the ways they track you. Privacy can be a rabbithole but take it as far as you want, not what others may tell you is/isn't enough.
+First off, Privacy is what YOU want it to be. There's a lot of ways to go about, some are more simple while others are more indepth and require more effort. If you want to use social media that targets you with ads and tracks and listens to you, but you are aware of that, then by all means! But you have control over how much of your data they get and the ways they track you. Privacy can be a rabbi thole but take it as far as you want, not what others may tell you is/isn't enough.
 
 While some of this might be at the slight cost of convenience, it ends up being better for you overall in most cases. Keep in mind that **Privacy ≠ anonymity**.
 
