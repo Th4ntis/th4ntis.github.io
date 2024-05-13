@@ -29,24 +29,36 @@ Now when making online payments use [Privacy.com](https://privacy.com/). This le
 
 # Software
 ## Browsers
-[Firefox](https://firefox.com/), [LibreWolf](https://librewolf.net/), or [Brave](https://brave.com/). I myself am a fan of [Hardened Firefox](https://www.privacyguides.org/en/desktop-browsers/#firefox), due to the ability to have [Containers](https://addons.mozilla.org/en-US/firefox/addon/multi-account-containers/). "Each container is isolated from the others, so you can access sites logged into different accounts.". So this will keep sites isolated from each other as to not share cookies and other info with each other. Additionally using [uBlock Origin](https://github.com/gorhill/uBlock#ublock-origin) with any browser you do use.
+[Firefox](https://firefox.com/) - I myself am a fan of [Hardened Firefox](https://www.privacyguides.org/en/desktop-browsers/#firefox), due to the ability to have [Containers](https://addons.mozilla.org/en-US/firefox/addon/multi-account-containers/). "Each container is isolated from the others, so you can access sites logged into different accounts.". So this will keep sites isolated from each other as to not share cookies and other info with each other. 
+
+[LibreWolf](https://librewolf.net/) - Is a fork of Firefox that has most of the "hardening" or privacy setting on by default, but it's a little slower to be updated with normal firefox. As this is a fork of Firefox, it has the ability to use the containers the same way firefox does.
+
+[Brave](https://brave.com/) - Is a chromium based browser that has other privacy and adblockin features built in out-of-the-box. You can let it show you ads and it will pay you a minor amount as you browse but keep in mind that it does also collect some of your data as you browse.
+
+Additionally using [uBlock Origin](https://github.com/gorhill/uBlock#ublock-origin) with any browser you do use.
 
 ## Password Managers
 There's a few out there, there isn't an exact wrong answer but some have poor reputation from being breached. I myself use [Bitwarden](https://bitwarden.com/). This is free, and if you want to pay to self-host(recommended) and other features, it's only $10 a year. Super cheap and worth it. There alternatives are [ProtonPass](https://proton.me/pass), or [1Password](https://1password.com/).
 
 ## Keeping In Contact
-For Texting/Calling there is [Signal](https://signal.org/en/), [Element](https://element.io/), or [Session](https://getsession.org/) for chat messaging, though you will need other people on the platform as well or your message will not encrypted. I have all 3, I use singal the most, especially now that they have added in [Signal Usernames](https://www.signal.org/blog/phone-number-privacy-usernames/), so you don't need to give people your phone # anymore.
+for chat messaging, though you will need other people on the platform as well or your message will not encrypted.
 
-[MySudo](https://mysudo.com/) for creating phone numbers, emails, etc. to use instead of your real personal information. **Note:** You _may_ need a stock android/iPhone device to sign up for a plan. I was unable to while using CalyxOS. So I had an older stock android phone around, downloaded the app, signed up for the service and logged into the account on my non-stock android phone.
+[Signal](https://signal.org/en/) - I use singal the most, especially now that they have added in [Signal Usernames](https://www.signal.org/blog/phone-number-privacy-usernames/), so you don't need to give people your phone # anymore.
 
-Using [Cryptomator](https://cryptomator.org/) when using any cloud storage that you don't sync. This will encrypt files that are put onto any oneline cloud storage.
+[Element](https://element.io/) - Is a way to chat using [Matrix](https://element.io/matrix-benefits). This can uses for individuals or creating chatrooms. Has the ability to search for open/public chatrooms, or create your own.
+
+[Session](https://getsession.org/) - This is similar to signal but instead of usernames or phone numbers, you have user IDs that are a long string of characters.
+
+[MySudo](https://mysudo.com/) - for creating phone numbers, emails, etc. to use instead of your real personal information. **Note:** You _may_ need a stock android/iPhone device to sign up for a plan. I was unable to while using CalyxOS. So I had an older stock android phone around, downloaded the app, signed up for the service and logged into the account on my non-stock android phone.
+
+[Cryptomator](https://cryptomator.org/) - When using any cloud storage that you don't sync. This will encrypt files that are put onto any oneline cloud storage.
 
 # Hardware
 ## Mobile
 I personally recommend a Google Pixel Phone - Unlocked, and installing [CalyxOS](https://calyxos.org/) or [GrapheneOS](https://grapheneos.org/). iPhones are good alternative. Using [MintMobile](https://www.mintmobile.com/) instead of a normal carrier. So you'll be getting a new phone number. When giving out your new phone number to family/friends, make sure you trust them to not give it out to others.
 
 # PC
-Most machines work but will depend on your use case, but rather than using Windows or Mac OS, go with [QuebesOS](https://www.qubes-os.org/)(for more advanced) or base [Debian](https://www.debian.org/). I typically use Debian for ease as most things just work with it.
+Most machines work but will depend on your use case, but rather than using Windows or Mac OS, go with [QuebesOS](https://www.qubes-os.org/)(for more advanced) or base [Debian Linux](https://www.debian.org/). I typically use Debian for ease as most things just work with it.
 
 If you use Windows10/11, you'll want to take some extra steps like running [O&O ShutUp10++](https://www.oo-software.com/en/shutup10) and [O&O AppBuster](https://www.oo-software.com/en/ooappbuster). These will remoev unnecessary bloat apps and software, as well disable/enable certain features that are built into Windows that collects your data. You can use [Chris Titus's Windows Utility](https://github.com/ChrisTitusTech/winutil) for additional options.
 
