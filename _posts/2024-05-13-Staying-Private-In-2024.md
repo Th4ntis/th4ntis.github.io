@@ -15,7 +15,7 @@ While privacy on the other hand is about it not being important if they know who
 
 There’s a good article breakdown between the two [here](https://proton.me/blog/anonymity-vs-privacy) by [Douglas Crawford](https://proton.me/blog/author/dcrawford) at Proton.
 
-Most of these tools are free or have very small price points. The hardware will come down to your personal phone and/or computer.
+Most of these tools are free or have very small price points. The hardware will come down to your personal phone and/or computer. Also don't forget to be sure to google yourself from time to time and if there's anything your name is on that you want removed, you can start that process.
 
 # Starting with creating accounts
 ## Emails
