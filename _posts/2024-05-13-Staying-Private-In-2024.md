@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Staying Private Online in 2024"
+title: "Staying Private and Secure Online in 2024"
 categories: guide
 author:
 - th4ntis
@@ -29,7 +29,7 @@ Now when making online payments use [Privacy.com](https://privacy.com/). This le
 
 # Software
 ## Browsers
-[Firefox](https://firefox.com/) - I myself am a fan of [Hardened Firefox](https://www.privacyguides.org/en/desktop-browsers/#firefox), due to the ability to have [Containers](https://addons.mozilla.org/en-US/firefox/addon/multi-account-containers/). "Each container is isolated from the others, so you can access sites logged into different accounts.". So this will keep sites isolated from each other as to not share cookies and other info with each other. 
+[Firefox](https://firefox.com/) - I myself am a fan of [Hardened Firefox](https://www.privacyguides.org/en/desktop-browsers/#firefox)(and [this guide](https://brainfucksec.github.io/firefox-hardening-guide) by [brainfucksec](https://brainfucksec.github.io/whoami)), due to the ability to have [Containers](https://addons.mozilla.org/en-US/firefox/addon/multi-account-containers/). "Each container is isolated from the others, so you can access sites logged into different accounts.". So this will keep sites isolated from each other as to not share cookies and other info with each other. 
 
 [LibreWolf](https://librewolf.net/) - Is a fork of Firefox that has most of the "hardening" or privacy setting on by default, but it's a little slower to be updated with normal firefox. As this is a fork of Firefox, it has the ability to use the containers the same way firefox does.
 
