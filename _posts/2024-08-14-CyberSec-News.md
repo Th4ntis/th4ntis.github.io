@@ -6,8 +6,6 @@ author:
 - th4ntis
 ---
 
-# CyberSec News
-
 Keeping up with various Cyber/Information Security can be done through various Social media, such as [Twitter](https://twitter.com), [LinkedIn](https://www.linkedin.com/feed/), [Reddit](https://reddit.com), or RSS Feeds. With some of the platforms dying or just going down hill, I wanted to show places of ways to get updates in the Cyber/Information Security world.
 
 There is also Mastodon, I myself am on [infosec.exchange](https://infosec.exchange), and [BlueSky](https://bsky.app/). Though Mastodon isn't always the easiest to Navigate and BlueSky has a relatively small user base at the moment.
