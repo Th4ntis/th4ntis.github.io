@@ -1,7 +1,6 @@
 ---
 layout: post
 title: "CyberSec News and Staying Up to Date"
-categories: Insight, Opinion
 author:
 - th4ntis
 ---
