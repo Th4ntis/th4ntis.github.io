@@ -1,7 +1,6 @@
 ---
 layout: post
 title: "My Take on DefCon32"
-categories: Insight, Opinion
 author:
 - th4ntis
 ---
