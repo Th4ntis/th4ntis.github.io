@@ -100,7 +100,7 @@ I currently use:
 * [Qualys blog](https://blog.qualys.com/)
 * [Trellix blog](https://www.trellix.com/en-us/advanced-research-center.html)
 * [VMware Carbon Black blog](https://www.vmware.com/security/threat-research.html)
-* [ThreatMon | Advanced Threat Intelligence Platform blog](https://threatmon.io/blog/)
+* [ThreatMon Advanced Threat Intelligence Platform blog](https://threatmon.io/blog/)
 * [Cybereason blog](https://www.cybereason.com/blog)
 * [CrowdStrike blog](https://www.crowdstrike.com/blog/)
 * [Symantec blog](https://symantec-enterprise-blogs.security.com/blogs/threat-intelligence)
