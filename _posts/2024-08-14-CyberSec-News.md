@@ -4,6 +4,7 @@ title: "CyberSec News and Staying Up to Date"
 author:
 - th4ntis
 ---
+How to stay up to date with Cyber Security new, events, and more.
 
 Keeping up with various Cyber/Information Security can be done through various Social media, such as [Twitter](https://twitter.com), [LinkedIn](https://www.linkedin.com/feed/), [Reddit](https://reddit.com), or RSS Feeds. With some of the platforms dying or just going down hill, I wanted to show places of ways to get updates in the Cyber/Information Security world.
 
