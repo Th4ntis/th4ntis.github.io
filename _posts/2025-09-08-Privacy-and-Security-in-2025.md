@@ -5,6 +5,8 @@ categories: guide
 author:
 - th4ntis
 ---
+This is my guide on ways to keep your online data, YOUR data, and other ways to help you stay secure in 2025.
+
 I'll start by saying this again, privacy is what **YOU** want it to be. There's a lot of ways to go about, some are more simple while others are more in-depth and require more effort. If you want to use social media that targets you with ads and tracks and listens to you, but you are aware of that, then by all means! But you have control over how much of your data they get and the ways they track you. Privacy can be a rabbi thole but take it as far as you want, not what others may tell you is/isn't enough.
 
 While some of this might be at the slight cost of convenience, it ends up being better for you overall in most cases. Keep in mind that **Privacy ≠ anonymity**.
