@@ -72,4 +72,4 @@ If you use Windows 11 (as Windows 10 is soon to be unsupported), you'll want to 
 # Conclusion
 There's multiple options out there when it comes to your online privacy and security. Take it as far as you want. There's social media, and services that you are the product they are selling, and plenty of others that you still are the product even if you're paying. I myself use Social Media in their own container on Firefox, but I don't have the apps installed on my phone, I just access them via my phones browser if I want/need. I use apps like Discord that collects your data but it's hard not to use it when a vast majority of people use it but the ones who are privacy conscious/respecting will use the other apps with me.
 
-<img width="1500" height="1500" alt="privacypack" src="https://github.com/user-attachments/assets/fd988750-501b-4ada-bf79-80b4955470b1" />
+<img width="800" height="800" alt="privacypack" src="https://github.com/user-attachments/assets/fd988750-501b-4ada-bf79-80b4955470b1" />
