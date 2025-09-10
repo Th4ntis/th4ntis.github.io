@@ -5,6 +5,7 @@ categories: guide
 author:
 - th4ntis
 ---
+This will cover the basic of a Hak5 WiFi Pineapple.
 
 The [WiFi Pineapple](https://shop.hak5.org/products/wifi-pineapple) from [Hak5](https://hak5.org/) is a wireless auditing platform that allows network security administrators to conduct wireless penetration tests. It has multiple features including the ability to create rogue access points, man-in-the-middle attacks, perform passive surveillance, WPA and WPA Enterprise attacks, and more. More info can be found on [their docs page](https://docs.hak5.org/wifi-pineapple).
 
