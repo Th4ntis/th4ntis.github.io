@@ -46,12 +46,15 @@ From here, either sign up to online shopping like Amazon or Etsy with your new a
 
 # Using the Add-On/Extension
 If you have the premium version or want to use the Add-On/Extension, you can quickly and easily make alias. On the website you want to make an alias for, Netflix in my example, click the icon for the Add-On/Extension. This will auto fill the website name into the field and let you know you are going to create a new alias.
+
 <img width="483" height="426" alt="Pasted image 20251110223427" src="https://github.com/user-attachments/assets/8bd3ae9a-1bac-42a4-adc2-cac38b7dd1dc" />
 
 You can click create, and following you can click the email to copy it to paste it where needed.
+
 <img width="481" height="480" alt="Pasted image 20251110223520" src="https://github.com/user-attachments/assets/5f7884c7-e3c9-4c48-89c3-9ec5462da62b" />
 
 From the Add-On/Extension, you can also toggle on/off alias to stop/start getting emails sent to that alias.
+
 <img width="483" height="558" alt="Pasted image 20251110223713" src="https://github.com/user-attachments/assets/90f341a1-24f9-469f-a151-82b2e487e7f7" />
 
 Ta-da! You're all set! You can easily stop getting spam now by signing up for junk services with a junk alias, and keep your real, personal, email address hidden and safe!
