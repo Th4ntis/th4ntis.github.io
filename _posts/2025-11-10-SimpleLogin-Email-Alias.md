@@ -36,15 +36,11 @@ From here I HIGHLY recommend grabbing the SimpleLogin extension for your browser
 On the dashboard, if you are making one alias for multiple services, click the "+ New Custom Alias" button in the top left.
 <img width="1193" height="402" alt="Pasted image 20251110222057" src="https://github.com/user-attachments/assets/53f78838-2a42-4fd9-9f51-1ecd754c5715" />
 
-
-From here, choose an alias name change your domain. You may be limited depending on if you are using the free or paid account. For example, if using the free account and you want an email for online shopping, you 
-can name it "shopping". Then click create.
+From here, choose an alias name change your domain. You may be limited depending on if you are using the free or paid account. For example, if using the free account and you want an email for online shopping, you can name it "shopping". Then click create.
 <img width="1192" height="609" alt="Pasted image 20251110222551" src="https://github.com/user-attachments/assets/7b6f006f-eebc-4155-9ea1-41e89fd27cac" />
-
 
 Going back to your dashboard, you should see the alias you just created along with the default one created by SimpleLogin. You can delete the one from SimpleLogin.
 <img width="1191" height="409" alt="Pasted image 20251110222928" src="https://github.com/user-attachments/assets/9d2e54d7-4e0f-427e-892f-3a821d945d4b" />
-
 
 From here, either sign up to online shopping like Amazon or Etsy with your new alias, OR log into your existing account on the service and change your email to the alias.
 
@@ -52,13 +48,10 @@ From here, either sign up to online shopping like Amazon or Etsy with your new a
 If you have the premium version or want to use the Add-On/Extension, you can quickly and easily make alias. On the website you want to make an alias for, Netflix in my example, click the icon for the Add-On/Extension. This will auto fill the website name into the field and let you know you are going to create a new alias.
 <img width="483" height="426" alt="Pasted image 20251110223427" src="https://github.com/user-attachments/assets/8bd3ae9a-1bac-42a4-adc2-cac38b7dd1dc" />
 
-
 You can click create, and following you can click the email to copy it to paste it where needed.
 <img width="481" height="480" alt="Pasted image 20251110223520" src="https://github.com/user-attachments/assets/5f7884c7-e3c9-4c48-89c3-9ec5462da62b" />
 
-
 From the Add-On/Extension, you can also toggle on/off alias to stop/start getting emails sent to that alias.
 <img width="483" height="558" alt="Pasted image 20251110223713" src="https://github.com/user-attachments/assets/90f341a1-24f9-469f-a151-82b2e487e7f7" />
-
 
 Ta-da! You're all set! You can easily stop getting spam now by signing up for junk services with a junk alias, and keep your real, personal, email address hidden and safe!
