@@ -5,7 +5,7 @@ categories: guide
 author:
 - th4ntis
 ---
-  # Wardriving with the Pineapple Pager
+# Wardriving with the Pineapple Pager
 We can use the pager to do some nice wardriving, but to have GPS with it, we have a couple options, using the [Glytch GPS Module](https://shop.hak5.org/products/glytch-gps-mod-for-pager) or [Mobile2GPS](https://github.com/ryanpohlner/mobile2gps)
 
 # Glytch GPS Module
