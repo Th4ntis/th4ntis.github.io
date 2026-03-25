@@ -7,6 +7,7 @@ author:
 ---
   # Wardriving with the Pineapple Pager
 We can use the pager to do some nice wardriving, but to have GPS with it, we have a couple options, using the [Glytch GPS Module](https://shop.hak5.org/products/glytch-gps-mod-for-pager) or [Mobile2GPS](https://github.com/ryanpohlner/mobile2gps)
+
 # Glytch GPS Module
 This is form fitting and simple to use, but it does cover the USB-C port so we are unable to charge it. With the Module plugged in, we go to `Settings -> GPS -> Serial Device -> Select TTYUSB0`  and that's it. Pretty straight forward. The GPS is very weak inside from my experience, so it may not show your coordinates immediately. 
 # Mobile2GPS
