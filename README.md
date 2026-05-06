@@ -27,7 +27,7 @@
   <a href="https://tryhackme.com/p/th4ntis">
     <img src="https://img.shields.io/badge/TryHackMe-Red?style=for-the-badge&logo=TryHackMe&logoColor=white"/>
   </a>
-  <a href="https://app.hackthebox.com/profile/274909">
+  <a href="https://app.hackthebox.com/users/274909">
     <img src="https://img.shields.io/badge/HackTheBox-green?style=for-the-badge&logo=HackTheBox&logoColor=white"/>
   </a>
 </div>
@@ -43,7 +43,7 @@
 </h1>
 
 <div align="center">
-I'm Th4ntis, a cyber security and information security enthusiast. I enjoy the world of Cyber Security and Information Security as a career and a hobby. I'm a professional penetration tester who specializes in wireless hacking, my background also includes network penetration testing. I have my PNPT, and I enjoy tinkering with electronics and sharing my knowledge to others via my blog and my gitbook of CyberSec notes.
+I'm a Cyber Security enthusiast. I enjoys the world of Cyber Security as a career and a hobby. I'm a professional penetration tester who specializes in wireless hacking, my background also includes network penetration testing and SOC work. I have my PNPT, CRTP, Security+, and other minor certs like Splunk Fundamental 1 and 2, and other. I enjoys tinkering with electronics and sharing my knowledge to others via my blog and gitbook of CyberSec notes.
 
 ![Banner](https://github.com/Th4ntis/th4ntis.github.io/raw/main/assets/TWITTER%20BANNER.jpg)
 
