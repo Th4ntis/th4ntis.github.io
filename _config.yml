@@ -45,5 +45,5 @@ minima:
   # - { platform: mastodon,       user_url: "https://infosec.exchange/@th4ntis" }
     - { platform: HTB,        user_url: "https://app.hackthebox.com/users/274909" }
   # - { platform: THM,        user_url: "https://tryhackme.com/p/th4ntis" }
-    - { platform: x,              user_url: "https://x.com/th4ntis" }
+  # - { platform: x,              user_url: "https://x.com/th4ntis" }
   # - { platform: youtube,        user_url: "https://www.youtube.com/jekyll" }
