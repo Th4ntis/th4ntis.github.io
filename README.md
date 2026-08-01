@@ -21,9 +21,6 @@
 </div>
 
 <div id="badges2" align="center">
-  <a href="https://infosec.exchange/web/@th4ntis">
-    <img src="https://img.shields.io/badge/Mastodon-purple?style=for-the-badge&logo=Mastodon&logoColor=white"/>
-  </a>
   <a href="https://tryhackme.com/p/th4ntis">
     <img src="https://img.shields.io/badge/TryHackMe-Red?style=for-the-badge&logo=TryHackMe&logoColor=white"/>
   </a>
