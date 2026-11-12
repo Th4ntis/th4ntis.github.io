@@ -5,7 +5,6 @@ categories:
 author:
   - th4ntis
 ---
-# General
 [MITRE ATT&CK](https://attack.mitre.org/) is a knowledge base of adversary tactics and techniques based on real-world observations. It is a free, giant, organized list of all the known tricks hackers use, so the good guys can recognize them, talk about them, and stop them.
 
 ## Analogy
