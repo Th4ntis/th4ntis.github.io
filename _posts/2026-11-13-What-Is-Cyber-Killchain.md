@@ -5,8 +5,6 @@ categories:
 author:
   - th4ntis
 ---
-# About
-
 The [Cyber Kill Chain](https://www.crowdstrike.com/cybersecurity-101/cyber-kill-chain/) is an adaptation of the military's kill chain, a step-by-step approach that identifies and stops enemy activity. Originally developed by Lockheed Martin in 2011, the Cyber Kill Chain outlines the various stages of several common cyberattacks and, by extension, the points at which the information security team can prevent, detect, or intercept attackers.
 
 The Cyber Kill Chain is intended to defend against sophisticated cyberattacks, also known as [advanced persistent threats (APTs)](https://www.crowdstrike.com/cybersecurity-101/advanced-persistent-threat-apt/), wherein attackers spend significant time surveilling and planning an attack. Most commonly these attacks involve a combination of malware, ransomware, Trojans, spoofing, and [social engineering techniques](https://www.crowdstrike.com/cybersecurity-101/social-engineering-attacks/) to carry out their plan.
