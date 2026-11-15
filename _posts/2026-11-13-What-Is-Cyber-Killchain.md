@@ -19,7 +19,7 @@ There are other kill chains out there, some of which can be found [here](https:/
 
 The standard kill chain is broken into these phases:
 
-[![[https___files.gitbook.com_v0_b_gitbook-x-prod.appspot.com_o_spaces_2FTdW22AGCceN8oUXfdlKI_2Fuploads_2FqkThkn0K9Xke2lY1h0Bp_2Fimage.avif]]](https://cybersec.th4ntis.com/~gitbook/image?url=https%3A%2F%2F667808901-files.gitbook.io%2F%7E%2Ffiles%2Fv0%2Fb%2Fgitbook-x-prod.appspot.com%2Fo%2Fspaces%252FTdW22AGCceN8oUXfdlKI%252Fuploads%252FqkThkn0K9Xke2lY1h0Bp%252Fimage.png%3Falt%3Dmedia%26token%3D413dac4e-7591-4393-81f0-1044b455a77c&width=768&dpr=3&quality=100&sign=8d7f55719433e79c8253ee3814abf195&sv=3)
+<img width="768" height="512" alt="image" src="https://github.com/user-attachments/assets/c690411c-a179-46c3-9dc6-ebb9adef34f6" />
 
 1. **Reconnaissance**
 2. **Weaponization**
