@@ -6,8 +6,7 @@ date: 22:15:00 -0400
 author:
   - th4ntis
 ---
-# Installing
-Once we have [installed Ludus](https://th4ntis.com/guide/2026/11/16/Updated-Ludus-Install-Guide.html) onto our machine, we can proceed with installing [Game of Active Directory (GOAD)](https://orange-cyberdefense.github.io/GOAD). This will give us a great environment to attack, test tools against, and more.
+Now that we have [installed Ludus](https://th4ntis.com/guide/2026/11/16/Updated-Ludus-Install-Guide.html) onto our machine, we can proceed with installing [Game of Active Directory (GOAD)](https://orange-cyberdefense.github.io/GOAD). This will give us a great environment to attack, test tools against, and more.
 
 ---
 
