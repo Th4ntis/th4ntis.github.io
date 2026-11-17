@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Updated Install Ludus Guide
-date: date: 21:00:00 -0400
+date: 21:00:00 -0400
 categories: guide
 author:
   - th4ntis
