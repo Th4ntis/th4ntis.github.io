@@ -200,4 +200,4 @@ To power on/off the VMs, we either right-click anywhere within the range editor 
 <img width="432" height="186" alt="image" src="https://github.com/user-attachments/assets/f2738f64-c6d6-42c5-a77d-75c95c9bc300" />
 
 # Conclusion
-That's it for now covering he basics of what Ludus is, installing it and the common usage. I will be posting an updated guide on installing [Game of Active Directory (GOAD)](https://orange-cyberdefense.github.io/GOAD) soon.
+That's it for now covering he basics of what Ludus is, installing it and the common usage. Be sure to check out my guide on [installing Game of Active Directory](https://th4ntis.com/guide/2026/11/16/Updated-GOAD-Install-Guide.html) for a great AD environment to test TTPs, APTs, and other tooling against.
