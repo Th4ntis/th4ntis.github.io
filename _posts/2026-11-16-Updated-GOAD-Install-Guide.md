@@ -2,7 +2,7 @@
 layout: post
 title: Updated GOAD Install Guide
 categories: guide
-date: 22:13:00 -0600
+date: 22:15:00 -0400
 author:
   - th4ntis
 ---
