@@ -2,11 +2,15 @@
 layout: post
 title: Updated GOAD Install Guide
 categories: guide
+date: 22:13:00 -0600
 author:
   - th4ntis
 ---
 # Installing
 Once we have [installed Ludus](https://th4ntis.com/guide/2026/11/16/Updated-Ludus-Install-Guide.html) onto our machine, we can proceed with installing [Game of Active Directory (GOAD)](https://orange-cyberdefense.github.io/GOAD). This will give us a great environment to attack, test tools against, and more.
+
+---
+
 ## CLI
 To install GOAD via CLI we need to add the source first. Pressing space to select `Game of Active Directory (GOAD)`, then press `enter`.
 ```
